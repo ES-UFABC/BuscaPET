@@ -1,4 +1,4 @@
-# Grupo 1.10 - BuscaPet
+# Grupo 10 - BuscaPet
 
 1. Amanda Francesconi
 1. Karla Gomes de Souza
