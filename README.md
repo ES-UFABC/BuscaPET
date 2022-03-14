@@ -8,11 +8,14 @@
 1. Lucca Segantim Jacomassi
 
 * https://docs.google.com/document/d/1pxPg3IrrAmE-PuS0VClB0lGqXcuTfPyRNj3trF2U3Zc/edit
+* https://docs.google.com/document/d/1pxPg3IrrAmE-PuS0VClB0lGqXcuTfPyRNj3trF2U3Zc/edit?usp=sharing
 
 # Sobre o projeto:
+O BuscaPet é uma aplicação mõvel que permite identificar e notificar animais perdidos por localidade e fomentar encontros e atividades entre seus donos. Esse projeto tem como principal objetivo fortalecer a ajuda comunitária quando os pets estiverem perdidos, contribuindo com informações, como a localização desses bichinhos.
 
 # Requisitos:
 
 # Como instalar:
 
 # License: 
+BuscaPet está sob a licença MIT
