@@ -8,3 +8,11 @@
 1. Lucca Segantim Jacomassi
 
 * https://docs.google.com/document/d/1pxPg3IrrAmE-PuS0VClB0lGqXcuTfPyRNj3trF2U3Zc/edit
+
+# Sobre o projeto:
+
+# Requisitos:
+
+# Como instalar:
+
+# License: 
