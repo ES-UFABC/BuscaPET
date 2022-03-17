@@ -20,4 +20,4 @@ O BuscaPet é uma aplicação móvel que permite identificar e notificar animais
 # Como instalar:
 
 # License: 
-BuscaPet está sob a licença MIT
+BuscaPet está sob a licença GPL
