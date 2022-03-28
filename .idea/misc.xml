@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/drawable/background.xml" value="0.318" />
+        <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/drawable/button.xml" value="0.32" />
+        <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/drawable/container_components.xml" value="0.318" />
+        <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/drawable/form_label.xml" value="0.3675" />
+        <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/layout/cadastro_pet.xml" value="0.2921195652173913" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
