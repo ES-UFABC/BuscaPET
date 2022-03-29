@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BuscaPET</string>
+    <string name="signUpText">Cadastrar</string>
 </resources>
