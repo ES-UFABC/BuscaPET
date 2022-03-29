@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">BuscaPET</string>
     <string name="signUpText">Cadastrar</string>
+    <string name="app_name">Tela de Cadastro</string>
+    <string name="title_cadastro">Cadastre-se</string>
+    <string name="title_cadastro2">Cadastrar</string>
 </resources>
