@@ -9,6 +9,9 @@
         <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/drawable/form_label.xml" value="0.3675" />
         <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/layout/cadastro_pet.xml" value="0.2921195652173913" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_tela_cadastro.xml" value="0.1" />
       </map>
     </option>
   </component>
