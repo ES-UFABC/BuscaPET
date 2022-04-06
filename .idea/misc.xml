@@ -7,9 +7,13 @@
         <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/drawable/button.xml" value="0.32" />
         <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/drawable/container_components.xml" value="0.318" />
         <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/drawable/form_label.xml" value="0.3675" />
+        <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/drawable/ic_user.xml" value="0.274" />
+        <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/drawable/ic_user_box.xml" value="0.274" />
+        <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/drawable/user_container.xml" value="0.274" />
         <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/layout/activity_sign_up.xml" value="0.259375" />
         <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.259375" />
+        <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/layout/activity_user_account.xml" value="0.2453125" />
         <entry key="..\:/AndroidStudioProjects/BuscaPET/app/src/main/res/layout/cadastro_pet.xml" value="0.2921195652173913" />
       </map>
     </option>
