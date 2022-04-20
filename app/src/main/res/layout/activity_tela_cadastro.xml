@@ -59,7 +59,9 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
+
         android:id="@+id/bt_cadastrar"
+
         style="@style/Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
