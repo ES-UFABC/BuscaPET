@@ -11,7 +11,7 @@
 # Sobre o projeto:
 O BuscaPet é uma aplicação móvel que permite identificar e notificar animais perdidos por localidade e fomentar encontros e atividades entre seus donos. Esse projeto tem como principal objetivo fortalecer a ajuda comunitária quando os pets estiverem perdidos, contribuindo com informações, como a localização desses bichinhos.
 
-# Objetivo
+# Objetivos
 O aplicativo procura fazer com que donos de pets perdidos identifiquem a localização dos seus pets através de uma ajuda comunitária de pessoas que encontram o pet e disponibilizam a informação.
 
 
