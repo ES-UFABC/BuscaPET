@@ -19,6 +19,9 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
+            android:name=".PetRegistration"
+            android:exported="false" />
+        <activity
             android:name=".SignIn"
             android:exported="true">
             <intent-filter>
