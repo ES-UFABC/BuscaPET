@@ -21,6 +21,9 @@
         <entry key="..\:/Users/Amanda/Documents/UFABC/disciplinas/eng software/BuscaPET/app/src/main/res/layout/activity_user_account.xml" value="0.20625" />
         <entry key="..\:/Users/Amanda/Documents/UFABC/disciplinas/eng software/BuscaPET/app/src/main/res/layout/cadastro_pet.xml" value="0.1" />
         <entry key="..\:/Users/Amanda/Documents/UFABC/disciplinas/eng software/BuscaPET/app/src/main/res/layout/home.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_user_account.xml" value="0.1" />
       </map>
     </option>
   </component>
