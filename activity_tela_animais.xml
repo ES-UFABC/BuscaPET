@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".TelaAnimais">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:background="@color/secondary"
+        android:layout_height="?android:actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/animal_barra"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Animais"
+            android:textSize="24sp"/>
+
+       </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintTop_toBottomOf="@+id/animal_barra"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/Animal_nome"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal"
+                android:text="@string/nome_animal"
+                android:textColor="@color/black"
+                android:weightSum="2"
+                app:layout_constraintLeft_toLeftOf="@id/animal_image" />
+
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:id="@+id/animal_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/logo"
+                android:layout_margin="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+                android:id="@+id/Animal_desc"
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Teste"
+                app:layout_constraintLeft_toLeftOf="@id/Animal_nome"
+                />
+
+        </RelativeLayout>
+
+        </android.support.design.card.MaterialCardView>
+    </android.support.constraint.ConstraintLayout>
