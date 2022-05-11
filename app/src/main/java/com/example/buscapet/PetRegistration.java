@@ -185,7 +185,7 @@ public class PetRegistration extends AppCompatActivity {
     }
 
     private void TelaPrincipal(){
-        Intent intent = new Intent(PetRegistration.this,UserAccount.class);
+        Intent intent = new Intent(PetRegistration.this, TelaAnimais.class);
         startActivity(intent);
         finish();
     }

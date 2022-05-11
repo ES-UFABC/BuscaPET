@@ -125,7 +125,7 @@ public class SignIn extends AppCompatActivity {
 
     private void TelaPrincipal(){
         //Intent intent = new Intent(SignIn.this,UserAccount.class);
-        Intent intent = new Intent(SignIn.this,PetRegistration.class);
+        Intent intent = new Intent(SignIn.this,TelaAnimais.class);
         startActivity(intent);
         finish();
     }
