@@ -66,6 +66,7 @@
         app:layout_constraintLeft_toRightOf="@id/iconEmail" />
 
     <Button
+        android:id="@+id/bt_deslogar"
         android:background="@color/black"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
