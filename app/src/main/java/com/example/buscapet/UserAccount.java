@@ -46,12 +46,12 @@ public class UserAccount extends AppCompatActivity {
 
         String email = FirebaseAuth.getInstance().getCurrentUser().getEmail();
         usuarioID = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        DocumentReference documentReference = db.collection( collectionPath: "Usuarios").document(usuarioID);
+        DocumentReference documentReference = db.collection("Usuarios").document(usuarioID);
         documentReference.addSnapshotListener(new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException error) {
                 if(documentSnapshot != null) {
-                    nomeUsuario.setText(documentSnapshot.getString( field: "nome"));
+                    nomeUsuario.setText(documentSnapshot.getString( "nome"));
                     emailUsuario.setText(email);
                 }
             }
