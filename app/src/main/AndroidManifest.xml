@@ -13,6 +13,9 @@
             android:name=".UserAccount"
             android:exported="false" />
         <activity
+            android:name=".TelaAnimais"
+            android:exported="false" />
+        <activity
             android:name=".SignUp"
             android:exported="false" />
         <activity
