@@ -98,7 +98,7 @@ public class SignIn extends AppCompatActivity {
                         throw task.getException();
 
                     }catch (FirebaseAuthInvalidCredentialsException e) {
-                        erro = "Usuário inválido";
+                        erro = "Senha incorreta";
 
                     }catch (Exception e){
                         erro= "Erro ao logar";

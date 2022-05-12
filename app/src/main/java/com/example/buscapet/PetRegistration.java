@@ -214,6 +214,7 @@ public class PetRegistration extends AppCompatActivity {
         prss.show();
 
         final String key = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        //final String key = UUID.randomUUID().toString();
         StorageReference imageRef = storageReference.child("images/" + key);
         imageRef.putFile(imageURI)
                 .addOnSuccessListener(snapshot -> {
