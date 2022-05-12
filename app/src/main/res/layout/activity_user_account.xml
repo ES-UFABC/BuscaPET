@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAccount">
+
+    <View android:id="@+id/userContainer"
+        android:background="@drawable/user_container"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/ic_user"
+        app:layout_constraintBottom_toBottomOf="@id/userContainer"
+        app:layout_constraintEnd_toEndOf="@id/userContainer"
+        app:layout_constraintStart_toStartOf="@id/userContainer"
+        app:layout_constraintTop_toTopOf="@id/userContainer" />
+
+    <ImageView android:id="@+id/iconUser"
+        android:layout_height="60dp"
+        android:layout_margin="30dp"
+        android:layout_width="60dp"
+        android:src="@drawable/ic_user_box"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userContainer" />
+
+    <TextView android:id="@+id/userName"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/iconUser"
+        app:layout_constraintBottom_toBottomOf="@id/iconUser"
+        app:layout_constraintLeft_toRightOf="@id/iconUser" />
+
+    <ImageView android:id="@+id/iconEmail"
+        android:layout_height="60dp"
+        android:layout_margin="30dp"
+        android:layout_width="60dp"
+        android:src="@drawable/ic_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iconUser" />
+
+    <TextView android:id="@+id/userEmail"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/iconEmail"
+        app:layout_constraintBottom_toBottomOf="@id/iconEmail"
+        app:layout_constraintLeft_toRightOf="@id/iconEmail" />
+
+    <Button android:id="@+id/feedButton"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:text="VOLTAR PARA O FEED"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/logoutButton"
+        style="@style/Button" />
+
+    <Button android:id="@+id/logoutButton"
+        android:background="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="DESLOGAR"
+        android:layout_margin="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        style="@style/Button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
