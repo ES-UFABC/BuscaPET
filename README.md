@@ -16,15 +16,22 @@ O aplicativo procura fazer com que donos de pets perdidos identifiquem a localiz
 
 
 # Funcionalidades:
-Para donos de pets perdidos: filtrar área de abrangência (onde o pet foi perdido) e informações sobre o pet (como raça, tamanho, cor, RGA*) para auxiliar na busca pelo animal, além de poder disponibilizar um telefone para contato caso encontrem o pet.
-Para usuários em geral: formulário para preenchimento de informações sobre o pet encontrado, feed onde é possível ver informações sobre os pets que foram perdidos nas redondezas.
+App feito para sistemas Android, desenvolvido para a última versão disponível (Android 11).
+Cadastro em banco de dados seguro.
+Para donos de pets perdidos: um feed com todos os pets encontrados com informações sobre o pet.
+Para usuários em geral: formulário para preenchimento de informações sobre o pet encontrado, feed onde é possível ver informações sobre os pets que foram perdidos.
 
 
 # Requisitos:
-* npm
+* Java
 * Node.js
+* Android Studio
 
-# Como instalar:
+# Como utilizar:
+* Ao fazer o download do android studio basta abrir o arquivo e rodar em um dispositivo com Android 11, podendo ser físico ou emulador.
+* Caso já tenha cadastro basta logar para acessar o app, caso contrário é necessário fazer um cadastro com nome, email e senha.
+* Após logar no app é possível observar o feed com pets perdidos e cadastrar um novo pet.
+* Na tela de informações do usuário é possível deslogar.
 
 # License: 
 BuscaPet está sob a licença GPL
